@@ -1,0 +1,10 @@
+<web-app version="2.4">
+  <servlet>
+    <servlet-name>MiServlet</servlet-name>
+    <servlet-class>Consulta</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>MiServlet</servlet-name>
+    <url-pattern>/hola</url-pattern>
+  </servlet-mapping>
+</web-app>
